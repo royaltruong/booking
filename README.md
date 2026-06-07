@@ -210,6 +210,14 @@ docker compose down -v
 
 Make sure the database is running, then execute:
 
+**1. Run migrations to create tables:**
+
+```bash
+pnpm migration:run
+```
+
+**2. Seed demo data:**
+
 ```bash
 pnpm seed
 ```
