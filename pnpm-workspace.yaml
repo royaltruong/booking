@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - bcrypt
+  - '@nestjs/core'
+  - '@scarf/scarf'
+  - unrs-resolver
+  - pg
